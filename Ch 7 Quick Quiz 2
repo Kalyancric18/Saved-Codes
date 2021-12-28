@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int i = 5;
+    int *a = &i;
+    
+    
+    float j = 3.14;
+    float *b = &j;
+    
+    
+    char k = 'b';
+    char *c = &k;
+    
+    printf("The value of a before increment is %u \n",a);
+    a++;
+    printf("The value of a after increment is %u \n",a);
+    
+    printf("The value of b before increment is %u \n",b);
+    b++;
+    printf("The value of b after increment is %u \n",b);
+    
+    printf("The value of c before increment is %u \n",c);
+    c++;
+    printf("The value of c after increment is %u \n",c);
+    
+    
+    return 0;
+}
